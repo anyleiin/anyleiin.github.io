@@ -256,8 +256,10 @@ a:hover {
   top: 3653px;
   left: 1px;
   background-color: #af2ad4;
-  overflow: hidden; 
+  /*overflow-x: auto; 
+  //overflow-y: hidden; */
   scroll-margin-top: 90vh;
+  
 
 }
 
@@ -270,11 +272,11 @@ a:hover {
 }
 
 .homepage .container {
-  width: 1320px;
+  width: 1322px;
   gap: 56px;
   position: absolute;
-  top: 300px;
-  left: 0;
+  top: 280px;
+  left: 2px;
   display: flex;
   align-items: flex-start;
 }
@@ -318,45 +320,47 @@ a:hover {
 .homepage .group-4 {
   position: absolute;
   width: 1324px;
-  height: 497px;
+  height: 513px;
   top: 187px;
   left: 2px;
 }
 
-.homepage .mouseSwipeContainer{
-  position: absolute;
-  top: 3800px;
-  left:20px;
-  width: 1324px;
-  height: 497px;
-}
-
 .homepage .frame-3 {
-  display: inline-flex;
+  display: flex;
   cursor: grab;
   align-items: flex-start;
   gap: 44px;
   position: absolute;
   top: 391px;
-  left: 62px;
+  left: 66px;
   flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden; 
+  max-width: 1358px;
 }
 
+.frame-3::-webkit-scrollbar {
+  display: none;
+}
 
 .homepage .frame-4 {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 18px;
   position: relative;
   flex: 0 0 auto;
+  
+
 }
 
 .homepage .process {
   width: 413px;
   position: relative;
   height: 284px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #cfedee;
+
 }
 
 .homepage .container-3 {
@@ -412,7 +416,8 @@ a:hover {
   width: 414px;
   position: relative;
   height: 284px;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #c9c9c969;
 }
 
 .homepage .text-wrapper-8 {
@@ -473,11 +478,11 @@ a:hover {
 
 .homepage .text-wrapper-11 {
   position: relative;
-  width: 300px;
+  width: 416px;
   font-family: var(--paragraph-font-family);
   font-weight: var(--paragraph-font-weight);
   color: var(--schrift-1);
-  font-size: var(--paragraph-font-size);
+  font-size: 16px;
   letter-spacing: var(--paragraph-letter-spacing);
   line-height: var(--paragraph-line-height);
   font-style: var(--paragraph-font-style);
