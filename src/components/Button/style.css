@@ -1,0 +1,89 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: 5px;
+  box-sizing: border-box;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.button .button-label {
+  font-family: var(--subheader-font-family);
+  font-size: var(--subheader-font-size);
+  font-style: var(--subheader-font-style);
+  font-weight: var(--subheader-font-weight);
+  letter-spacing: var(--subheader-letter-spacing);
+  line-height: var(--subheader-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button .icons-arrowleft {
+  height: 24px !important;
+  margin-bottom: -3px !important;
+  margin-top: -3px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.button .class {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.button.secondary {
+  border: 1px solid;
+  border-color: #000000;
+  display: flex;
+}
+
+.button.hover {
+  background-color: var(--darkgrey);
+}
+
+.button.regular {
+  height: 38px;
+}
+
+.button.regular.secondary {
+  width: 144px;
+}
+
+.button.large.secondary {
+  height: 49px;
+  width: 180px;
+}
+
+.button.hover.large {
+  display: flex;
+  width: 180px;
+}
+
+.button.regular.primary {
+  display: inline-flex;
+}
+
+.button.default.primary {
+  background-color: var(--white);
+  display: inline-flex;
+}
+
+.button.hover.large.primary {
+  height: 48px;
+}
+
+.button.regular .button-label {
+  margin-top: -1px;
+}
+
+.button.default .button-label {
+  color: #000000;
+}
+
+.button.hover .button-label {
+  color: var(--grey);
+}
