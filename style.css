@@ -2,6 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
+a:link{
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .homepage {
   background-color: #ffffff;
   display: flex;
@@ -179,6 +187,7 @@ html {
   border-radius: 40px;
   border: 3px solid;
   border-color: var(--schrift-1);
+  text-decoration: none;
 }
 
 .homepage .button-label {
@@ -623,6 +632,7 @@ html {
   border-radius: 40px;
   border: 3px solid;
   border-color: var(--schrift-1);
+  text-decoration: none;
   
 }
 
@@ -743,6 +753,7 @@ html {
   letter-spacing: 0;
   line-height: 16px;
   padding-left: 15px;
+  text-decoration: none;
 }
 
 .homepage .navbar {
@@ -752,7 +763,7 @@ html {
   gap: 32px;
   flex: 0 0 auto;
 
-
+  text-decoration: none;
 }
 
 .homepage .text-wrapper-16 {
@@ -767,6 +778,7 @@ html {
   line-height: var(--absatz-line-height);
   white-space: nowrap;
   font-style: var(--absatz-font-style);
+  text-decoration: none;
 }
 
 .homepage .right {
@@ -924,6 +936,7 @@ html {
   letter-spacing: var(--absatz-letter-spacing);
   line-height: var(--absatz-line-height);
   font-style: var(--absatz-font-style);
+
 }
 
 .homepage .group-8 {
