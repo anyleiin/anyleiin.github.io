@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000 ;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading{
+    width: 50%;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+.container .heading .title{
+    font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid #8e0890 ;
+    padding-bottom: 10px;
+    font-family: var(--heading-h3-font-family);
+}
+
+.container .heading .title span{
+   
+    font-weight: 100;
+ 
+}
+.container .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.container .box .column { 
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .column img { 
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.video{
+    width: 672px;
+    height: 378px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+ .nav {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    align-items: center;  
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    position: fixed;
+    background-color:#e3d6e767 ; 
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 1px;
+    border: 1px solid;
+    border-color: #8e0890;
+  
+  }
+ .navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex: 0 0 auto;
+  
+    text-decoration: none;
+  }
+   .left {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 56px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  /*AnikaHapke-part*/
+   .text-wrapper-15 {
+    position: relative;
+    width: 78px;
+    height: 28px;
+    margin-top: -1px;
+    font-family: "Arial-Black", Helvetica;
+    font-weight: 900;
+    color: var(--neutrals-900);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 16px;
+    padding-left: 15px;
+    text-decoration: none;
+  }
+  /*text nav-*/
+   .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--absatz-font-family);
+    font-weight: var(--absatz-font-weight);
+    color: rgb(44, 43, 43);
+    font-size: 16;
+    letter-spacing: var(--absatz-letter-spacing);
+    line-height: var(--absatz-line-height);
+    white-space: nowrap;
+    font-style: var(--absatz-font-style);
+    text-decoration: none;
+  }
+
+   .right {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+   .contact-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+    background-color: #8e0890;
+  }
+  
+   .contact {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
