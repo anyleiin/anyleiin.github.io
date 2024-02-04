@@ -67,7 +67,8 @@ document.addEventListener('DOMContentLoaded', function () {
         updateContent(langData);
         //toggleArabicStylesheet(lang); // Toggle Arabic stylesheet
     }
-
+    
+//update ui
     window.addEventListener('DOMContentLoaded', async () => {
         const userPreferredLanguage = localStorage.getItem('language') || 'en';
         const langData = await fetchLanguageData(userPreferredLanguage);
