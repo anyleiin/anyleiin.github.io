@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <title>Any(s)Portfolio</title>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styleguide.css" />
         <link rel="stylesheet" href="style.css" />
         <script src="interactions.js"></script>
     </head>
     <body>
         <div class="homepage">
-            
             <div class="div">
                 <div class="overlap">
                     <div class="HP">
                         <div class="overlap-group">
                             <div class="group"id="Top">
-                                <p class="text-wrapper">
-                                    UX Designer, Game Designer, Multimedia Designer, Illustrator, Artist...simply Any!
-                                </p>
+                                <p data-i18n ="text-wrapper" class="text-wrapper"></p>
                                 <div class="frame">
-                                    <p class="p">
-                                        I am an UX and Game Designer based in Zurich, Switzerland. I love problem solving and making
-                                        peoples’ lifes easier through good, playful design and learning and am always looking to learn new
-                                        exciting things every day!
-                                    </p>
+                                    <p data-i18n="p" class="p"></p>
                                 </div>    
                             </div>
                             <img class="group-3" src="img/BalkenStart.png" />
                             <img class="group-2" src="img/AnyBanany.png" />
                             <div class="introduction">
-                                <p class="text">
+                                <p data-i18n="text" class="text">
                                 Hi there!<br>
                                 I’m Anika “Any” Hapke.<br>
                                 Nice to meet you - Let’s stay in touch!
@@ -56,8 +51,9 @@
                                 </a>
                                 </div>
                             </div>
-                            <button class="button"><div class="button-label">Want to know more?</div></button>
-                            <div class="languageswitch"><div class="text-wrapper-2">DE</div></div>
+                            <button class="button"><div data-i18n="button-label" class="button-label">Want to know more?</div></button>
+                                <a href="index.html"><div class="languageswitch"onclick="changeLanguage('de')"><div class="text-wrapper-2">DE</div></div></a>
+                     
                         </div>
                     </div>
                     <div class="the-menu" id="TheMenu" id="mouseSwiper">
@@ -119,7 +115,7 @@
                                 </p>
                                 <div class="text-wrapper-12">04</div>
                             </div>
-                       
+                    
                         </section>
                     </div>
                     <div  class="projects">    
@@ -240,7 +236,7 @@
                     <div class="text-wrapper-14" id="TheProjects">THE PROJECTS</div>
 
                 </div>
-     
+    
                 <div class="button-4">
                     <a href="pdf/AnikaHapke_EN.pdf" download="AnikaHapke_EN.pdf">
                         <p class="button-label">Intriguing, give me the full story (*CV)!</p>
@@ -330,8 +326,7 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        
+  
     </body>
 </html>

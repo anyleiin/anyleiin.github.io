@@ -1,5 +1,7 @@
+
 document.addEventListener('DOMContentLoaded', function () {
     const ele = document.getElementById('mouseSwiper');
+
     ele.style.cursor = 'grab';
 
     let pos = { top: 0, left: 0, x: 0, y: 0 };
@@ -40,4 +42,36 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Attach the handler
     ele.addEventListener('mousedown', mouseDownHandler);
+
+// language-switch
+    async function fetchLanguageData(lang) {
+    const response = await fetch(`languages/${lang}.json`);
+   
+    return response.json();
+    }
+    function setLanguagePreference(lang) {
+        localStorage.setItem('language', lang);
+        location.reload();
+    }
+    function updateContent(langData) {
+        document.querySelectorAll('[data-i18n]').forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            element.textContent = langData[key];
+        });
+    }
+
+    async function changeLanguage(lang) {
+        await setLanguagePreference(lang);
+        
+        const langData = await fetchLanguageData(lang);
+        updateContent(langData);
+        //toggleArabicStylesheet(lang); // Toggle Arabic stylesheet
+    }
+
+    window.addEventListener('DOMContentLoaded', async () => {
+        const userPreferredLanguage = localStorage.getItem('language') || 'en';
+        const langData = await fetchLanguageData(userPreferredLanguage);
+        updateContent(langData);
+        //toggleArabicStylesheet(userPreferredLanguage);
+    });
 });
