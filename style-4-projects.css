@@ -42,6 +42,17 @@ body {
     width: 340px;
 }
 
+.projektpage .introduction{
+    align-items: flex-start;
+    flex: 0 0 auto;
+    gap: 20px;
+    padding: 0px 50px;
+    position: relative;
+    vertical-align: baseline;
+    width: 100%;
+    display: inline-flex;
+}
+
 .projektpage .inhalt {
     display: flex;
     flex: 0 0 auto;
@@ -67,9 +78,10 @@ body {
 }
 
 .projektpage .img {
-    width: 100%;
-    padding-bottom: 15px;
+    max-width: 70%;
+    padding: 15px;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
 .projektpage .text1 {
@@ -82,15 +94,7 @@ body {
     position: relative;
     width: 100%;
 }
-.projektpage .frame-56 {
-    align-items: flex-start;
-    background-color: transparent;
-    flex-direction: column;
-    gap: 20px;
-    position: relative;
-    width: 100%;
-    padding: 0px 50px;    
-}
+
 .projektpage .frame-57 {
     align-items: flex-start;
     background-color: transparent;
@@ -177,6 +181,7 @@ body {
     gap: 32px;
     position: relative;
 }
+
 .projektpage .column {
     align-items: center;
     justify-content: center;
@@ -185,6 +190,7 @@ body {
     width: 48.75%;
     align-items: center;
 }
+
 .projektpage .textblock {
     align-items: flex-start;
     background-color: transparent;
@@ -194,6 +200,32 @@ body {
     gap: 20px;
     padding: 0px 50px;
     position: relative;
+    width: 75%;
+}
+
+.projektpage .textblockheader {
+    align-items: flex-start;
+    background-color: transparent;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 50px;
+    position: relative;
+    max-width: 65%;
+    margin-top: 20px;;
+}
+
+.projektpage .textblockrow {
+    align-items: flex-start;
+    background-color: transparent;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0px 50px;
+    position: relative;
+    width: 75%;
 }
 
 .projektpage .textblock .heading{
@@ -209,6 +241,21 @@ body {
     font-style: var(--heading-XL-h2-font-style);
 }
 
+.projektpage .textblock .heading2{
+    position: relative;
+    margin-bottom: 32px;
+    width: 100%;
+    margin-top: 20px;
+    font-family: var(--heading-XL-h2-font-family);
+    font-weight: var(--heading-XL-h2-font-weight);
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: var(--heading-XL-h2-letter-spacing);
+    line-height: var(--heading-XL-h2-line-height);
+    font-style: var(--heading-XL-h2-font-style);
+}
+
+
 .projektpage .textblock .absatz{    
     position: relative;
     width: 100%;
@@ -222,6 +269,18 @@ body {
     
 }
 
+.projektpage .textblock2 .absatz{    
+    position: relative;
+    width: 100%;
+    font-family: var(--absatz-font-family);
+    font-weight: var(--absatz-font-weight);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: var(--absatz-letter-spacing);
+    line-height: var(--absatz-line-height);
+    font-style: var(--absatz-font-style);
+    
+}
 
 .letsconnectText{
     text-align: center;

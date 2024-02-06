@@ -42,37 +42,79 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Attach the handler
     ele.addEventListener('mousedown', mouseDownHandler);
-
-// language-switch
-    async function fetchLanguageData(lang) {
-    const response = await fetch(`languages/${lang}.json`);
-   
-    return response.json();
-    }
-    function setLanguagePreference(lang) {
-        localStorage.setItem('language', lang);
-        location.reload();
-    }
-    function updateContent(langData) {
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-            element.textContent = langData[key];
-        });
-    }
-
-    async function changeLanguage(lang) {
-        await setLanguagePreference(lang);
-        
-        const langData = await fetchLanguageData(lang);
-        updateContent(langData);
-        //toggleArabicStylesheet(lang); // Toggle Arabic stylesheet
-    }
-    
-//update ui
-    window.addEventListener('DOMContentLoaded', async () => {
-        const userPreferredLanguage = localStorage.getItem('language') || 'en';
-        const langData = await fetchLanguageData(userPreferredLanguage);
-        updateContent(langData);
-        //toggleArabicStylesheet(userPreferredLanguage);
-    });
 });
+
+
+    function updateContent() {
+        const elements = document.getElementsByClassName("i18nelement");
+        for (let i = 0; i < elements.length; i++) {
+          const element = elements[i];
+          const k = element.getAttribute("data-i18n");
+          element.innerHTML = i18next.t(k);
+        }
+      }
+      async function i18Loader() {
+        const langs = ["en", "de"]; // hier können weitere sprachen hinzu
+        const jsons = await Promise.all(
+          langs.map((l) => fetch("languages/" + l + ".json").then((r) => r.json()))
+          
+          );
+        const res = langs.reduce((acc, l, idx) => {
+          acc[l] = { translation: jsons[idx] };
+          return acc;
+        }, {});
+        await i18next.init({
+          lng: "de",
+          debug: true,
+          resources: res
+        });
+        updateContent();
+        i18next.on("languageChanged", () => {
+          updateContent();
+        });
+        const langSelector = document.getElementById("langSelector");
+        langSelector.removeAttribute("disabled");
+        langSelector.addEventListener("change", (e) => {
+          i18next.changeLanguage(e.target.value);
+        });
+      }
+      
+      i18Loader();
+
+ //language-switch
+async function fetchLanguageData(lang) {
+    const response = await fetch(`languages/${lang}.json`);
+    return response.json();
+  }
+  
+  // Function to set the language preference
+  function setLanguagePreference(lang) {
+    localStorage.setItem('language', lang);
+    location.reload();
+  }
+  
+  // Function to update content based on selected language
+  function updateContent(langData) {
+    document.querySelectorAll('[data-i18n]').forEach(element => {
+      const key = element.getAttribute('data-i18n');
+      element.textContent = langData[key];
+    });
+  }
+  
+  // Function to change language
+  async function changeLanguage(lang) {
+    await setLanguagePreference(lang);
+    
+    const langData = await fetchLanguageData(lang);
+    updateContent(langData);
+  }
+
+  // Call updateContent() on page load
+  window.addEventListener('DOMContentLoaded', async () => {
+    const userPreferredLanguage = localStorage.getItem('language') || 'en';
+    const langData = await fetchLanguageData(userPreferredLanguage);
+    updateContent(langData);
+  })
+  
+ 
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
     <title>Any(s)Portfolio</title>
     <head>
         <meta charset="UTF-8">
@@ -15,15 +15,15 @@
                     <div class="HP">
                         <div class="overlap-group">
                             <div class="group"id="Top">
-                                <p data-i18n ="text-wrapper" class="text-wrapper"></p>
+                                <p class="text-wrapper" data-i18n ="text-wrapper"></p>
                                 <div class="frame">
-                                    <p data-i18n="p" class="p"></p>
+                                    <p class="p" data-i18n="p"></p>
                                 </div>    
                             </div>
                             <img class="group-3" src="img/BalkenStart.png" />
                             <img class="group-2" src="img/AnyBanany.png" />
                             <div class="introduction">
-                                <p data-i18n="text" class="text">
+                                <p class="text" data-i18n="text">
                                 Hi there!<br>
                                 I’m Anika “Any” Hapke.<br>
                                 Nice to meet you - Let’s stay in touch!
@@ -52,8 +52,11 @@
                                 </div>
                             </div>
                             <button class="button"><div data-i18n="button-label" class="button-label">Want to know more?</div></button>
-                                <a href="index.html"><div class="languageswitch"onclick="changeLanguage('de')"><div class="text-wrapper-2">DE</div></div></a>
-                     
+                                
+                                <div class="languageswitch"><select disabled="true" id="langSelector" name="lang">
+                                        <div class="text-wrapper-2"><option value="en">en</option><option value="de">de</option></div>
+                                </div>
+                                    </select>
                         </div>
                     </div>
                     <div class="the-menu" id="TheMenu" id="mouseSwiper">
