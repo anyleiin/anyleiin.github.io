@@ -1,17 +1,22 @@
-
 {
     "text-wrapper": "UX Designer, Game Designer, Multimedia Designer, Illustrator, Artist...simply Any!",
     "p": "I am an UX and Game Designer based in Zurich, Switzerland. I love problem solving and making peoples’ lifes easier through good, playful design and learning and am always looking to learn new exciting things every day!",
     "text": "Hi there! I’m Anika “Any” Hapke. Nice to meet you - Let’s stay in touch!",
     "button-label": "Want to know more?",
-
+    
+    "routine-rollentext":"UX und UI Design and Research",
+    "routine-rollentitel":"Roll",
+    "routine-einleitungstitel":"Summary",
     "routine-subtitel":"Simplifying the overly complex creation of series elements for people with little technical flair",
     "routine-einleitung": "Inventsys is a software company for digital maintenance in Switzerland and Germany. Routines are settings / 'data containers' that generate previously defined tasks as repetitive jobs. For our customer group, the creation and assignment is too complex and they lack an overview. This project therefore gave rise to two sub-projects, 'Routines' and 'Planning', which I was responsible for planning and designing. I had the opportunity to manage another project in 08.23, which is why I had to pass on the completion of the planning.",
-    "routine-das-problem": "The user receives no feedback from the system regarding the creation of the routines.",
-    "routine-das-problem3": "The coordinator has no overview of the tasks created/completed from routines.",
-    "routine-die-lösung": "The creation of routines now happens at the push of a button in task creation.",
-    "routine-die-lösung2": "The user can see and adjust the upcoming tasks in a new planning overview.",
-    "routine-die-lösung3": "Simpler language and creation.",
+    "routine-das-problem-titel": "The Problem",
+    "routine-das-problem": "- The user receives no feedback from the system regarding the creation of the routines.",
+    "routine-das-problem2": "- Setting up the routine is too complicated",
+    "routine-das-problem3": "- The coordinator has no overview of the tasks created/completed from routines.",
+    "routine-die-lösung-titel": "The Solution",
+     "routine-die-lösung": "- The creation of routines now happens at the push of a button in task creation.",
+    "routine-die-lösung2": "- The user can see and adjust the upcoming tasks in a new planning overview.",
+    "routine-die-lösung3": "- The software uses simpler language and creation.",
     "routine-titel-designprozess": "Design process",
     "routine-userResearchBulletpoints": "I have set up a user panel with customers who have agreed to provide feedback.",
     "routine-userResearchBulletpoints2": "The user panel was regularly checked by customer service to provide additional customers.",
@@ -22,19 +27,25 @@
     "routine-userResearchinsights2": "The difficulties were due to unclear terminology and different steps in different places",
     "routine-userResearchinsights3": "Visual feedback was desired, namely a calendar function 'like Outlook'",
     "routine-userResearchinsights4": "While I saw the routines internally as a data container, for customers it is a serial element like Outlook - the technical differentiation is only necessary in the script.",
+    "routine-userResearchpersonaTitel": "Persona",
     "routine-userResearchpersona": " I created personas based on the interviews and various conversations with the sales team",
     "routine-userResearchpersona2": "I then defined 2 main personas with the team.The manager, who is usually in the office and has hardly any touchpoints with the mobile version, and the individual who creates the tasks themselves and carries them out in the field in the app.",
     "routineIdeationUserjourney": "To create a routine:",
     "routineIdeationUserjourney2": "A task had to be created first",
-    "routineIdeationUserjourney3": "The user had to create a routine in the settings, add the respective task and define the recurrence.",
-    "routineIdeationUserjourney4": "Im jeweiligen Objekt die Routine aktivieren.",
-    "routineKonkurrenz": "Ich habe ein Miroboard angelegt mit Screenshots aus ähnlicher Software und analysiert welche Aspekte gut auf unser eigenes Projekt passen würde und warum, bzw was fehlt um auf unsere Zielgruppe zu passen.",
-    "routineKonkurrenz2": "Im Team haben wir die Punkte besprochen und daraufhin eigene Sketches und Prototypen erstellt.",
-    "routineDesign": "Ich habe mit verschiedenen internen Teams zusammengearbeitet um verschiedene Kundenaspekte zu betrachten:",
-    "routineDesign2": "Sales: Welche Verkaufspunkte kommen gut bei Kunden an? Implementation: Welche Punkte sind für die Kunden am schwersten zu verstehen?",
-    "routineDesign3":"Der Kunde kann innerhalb eines Modals entscheiden ob er den Auftrag wiederholen möchte und entsprechende Einstellungen vornehmen.",
-    "routineDesign4":" Der Stepper soll dem Kunden helfen, sich zurechtzufinden und gibt Input welche Schritte bereits erledigt sind.",
-    "routineDesign5":"Die Einstellungen wurden so einfach wie möglich und detailliert wie notwendig gemacht und sind eingeklappt, wenn man sie nicht benötigt."
+    "routineIdeationUserjourney3": "The user then had to create a routine in the settings, add the respective task and define the recurrence.",
+    "routineIdeationUserjourney4": "And finally active the routine in within the object.",
+    "routineKonkurrenztitel": "Competition",
+    "routineKonkurrenz": "I set up a miro board with screenshots of similar software and interesting aspects that would fit well for our own project and why / check for what the other software is missing to fit for our users.",
+    "routineKonkurrenz2": "We discussed the points in the team and sketched our own prototypes either on paper, digitally or in Figma.",
+    "routinezusammenfassungTitel": "Summary",
+    "routinezusammenfassung": "I have learned to involve each stakeholder in the design process from an early stage on. That way, the dev team knows what to expect, what the thought process is behind each asset and can help plan the tickets with this knowledge. Sales and support sitzen are at the source and give feedback from clients. They know best, how the users think.",
+    "routinezusammenfassung2": "To give the visual feedback about the planned routines, it became clear the system would need a planning section. This became the second project. The routines themselves were a very interesting project and I was excited to see my design become an asset to our users.",
+   
+    "planung-einleitung": "Inventsys ist a SAAS company for digital maintenance in Switzerland and Germany. I was planning and prototyping routines and the planning section. Starting from 08/23, I had the chance to take over the lead of another project. I unfortunately had to hand over the finishing of the planning.",
+
     
+    "footer-weitereProjekte":"Other projects",
+    "footer-some":"Hit me up!"
+
 
 }
