@@ -43,7 +43,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // Attach the handler
     ele.addEventListener('mousedown', mouseDownHandler);
 });
-
+function change() // no ';' here to change the languagebutton
+{
+    var elem = document.getElementById("languageswitch");
+    if (elem.value=="DE") elem.value = "EN";
+    else elem.value = "DE";
+}
 
     function updateContent() {
         const elements = document.getElementsByClassName("i18nelement");
