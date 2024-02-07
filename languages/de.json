@@ -65,8 +65,22 @@
     "routinezusammenfassung2": "Aus dem Projekt der Routine hat sich dann schnell auch ergeben, dass man eine Planungsübersicht benötigt, um die Routine einfach verständlich visuel darzustellen - das wurde dann zum zweiten Projekt. Auch die Routinen waren ein sehr spannendes Projekt und es macht extrem Freude, sein Design umgesetzt zu sehen und die Freude der Kunden zu spüren.",
    
     "planung-einleitung": "Inventsys ist eine Softwarefirma für digitale Instandhaltung in der Schweiz und Deutschland. Routinen sind Einstellungen / „Datencontainer“, welche vorher definierte Aufgaben als wiederholende Aufträge generierten. Für unsere Kundengruppe ist die Erstellung und Zuweisung zu komplex und es fehlt ihnen eine Übersicht. Aus diesem Projekt sind deshalb die zwei Unterprojekte „Routinen“ und „Planung“ entstanden, deren Planung und Entwurf in meiner Verantwortung lagen. Ich hatte 08.23 die Chance, ein anderes Projekt zu leiten, weshalb ich die Fertigstellung der Planung weitergeben musste",
+    "planung-subtitel":"Angefangen mit der visuellen Darstellung von Routinen haben wir schlussendlich eine ganze Kalenderübersicht für die einfache Planung von Aufgaben erstellt",
+    "planung-das-problem": "- Der User hat keine visuelle Übersicht.",
+    "planung-das-problem2": "- Der Koordinator muss jeden Montag morgen mit den Technikern vor Ort Koordinieren wer welche Aufgabe übernimmt",
+    "planung-das-problem3": "- Der Koordinator muss in jede einzelne Aufgabe gehen um sie jemand neuem zuzuweisen oder weist sie einem ganzen Team zu, was die Kontrolle schwieriger macht",
+    "planung-userResearchinsights": " - Gewünscht wurde visuelles Feedback, namentlich eine Kalenderfunktion „wie Outlook“.",
+    "planung-userResearchinsights2": " - Die Anwender möchten innerhalb der Plannung die Aufgaben flexibel herumschieben können",
+    "planung-userResearchinsights3": " - Die Anwender möchten die Funktion nach Datum, Status und Personen filtern können",
+    "planung-userResearchinsights4": " - Wichtig ist, dass sie visuelles Feedback erhalten ob die Aufgaben/Routinen korrekt aufgesetzt wurden",
+    "planungzusammenfassung": "Hier war die Schwierigkeit die Fusion zwischen einer bekannten Funktion wie der Kalender, mit der Übersichtsmöglichkeit der Aufgaben. Es war ein super, iterativer Prozess mit offener Kommunikation zwischen uns und den Kunden.",
+    "planung-die-lösung": "- Der User hat eine Kalenderfunktion die Aufgabenzeitpunkte optisch leicht verständlich darstellt",
+    "planung-die-lösung2": "- Der User kann die Aufgaben über diese Seite direkt und einfach anpassen",
+    "planung-die-lösung3": "- Die Kalenderfunktion für das Jahr dient zur Ansicht der wiederholenden Aufträge.",
 
-    
+    "GD-rollentext":"Game Design und 2D Assets",
+    "tinfoiled-einleitung": " Planung weitergeben musste",
+
     "footer-weitereProjekte":"Weitere Projekte",
     "footer-some":"Hit me up!"
 

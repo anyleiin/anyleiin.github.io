@@ -27,7 +27,7 @@
     
 
 
-    "routine-rollentext":"UX und UI Design and Research",
+    "routine-rollentext":"UX and UI Design and Research",
     "routine-rollentitel":"Roll",
     "routine-einleitungstitel":"Summary",
     "routine-subtitel":"Simplifying the overly complex creation of series elements for people with little technical flair",
@@ -65,7 +65,18 @@
     "routinezusammenfassung2": "To give the visual feedback about the planned routines, it became clear the system would need a planning section. This became the second project. The routines themselves were a very interesting project and I was excited to see my design become an asset to our users.",
    
     "planung-einleitung": "Inventsys ist a SAAS company for digital maintenance in Switzerland and Germany. I was planning and prototyping routines and the planning section. Starting from 08/23, I had the chance to take over the lead of another project. I unfortunately had to hand over the finishing of the planning.",
-
+    "planung-subtitel":"Starting with a visual confirmation of routines we ended up creating a whole planning section with calendar and task list",
+    "planung-das-problem": "- The user has no visual overview.",
+    "planung-das-problem2": "- The coordinator has to meet with the employees in the office to discuss the tasks",
+    "planung-das-problem3": "- The coordinator has to check each task to add a new responsible person or whole team, which makes controlling the completion of a task more difficult",
+    "planung-userResearchinsights": " - The user asked for visual feedback, especially something they are already familiar with „like Outlook“.",
+    "planung-userResearchinsights2": " - The user want to change timeslots per drag and drop within the planning module",
+    "planung-userResearchinsights3": " - The user want to filter by date, status and employee",
+    "planung-userResearchinsights4": " - It is very important to receive visual Feedback whether the tasks were set up correctly",
+    "planungzusammenfassung": "The difficulties in this case was the fusion between a known function like a calendar and a list function of the tasks. The process was great and very interative with open discussions and valuable client feedback.",
+    "planung-die-lösung": "- The user hat eine Kalenderfunktion die Aufgabenzeitpunkte optisch leicht verständlich darstellt",
+    "planung-die-lösung2": "- The user can edit the tasks directly within the planning section",
+    "planung-die-lösung3": "- The yearly overview acts as an overview to check if routines were set up correctly.",
     
     "footer-weitereProjekte":"Other projects",
     "footer-some":"Hit me up!"
