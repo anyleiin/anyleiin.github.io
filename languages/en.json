@@ -12,6 +12,7 @@
     "hauptseite-spectrum":"An experience for people on the spectrum and their surroundings, either as an energy management game or to generate an understanding.",
     "hauptseite-tinfoiled":"Save the Karens from the evil 5G waves with the unique tinfoil hat generator!",
     "hauptseite-projectview":"View Project ",
+    "hauptseite-dasMenu":"The Menu",
     "hauptseite-dasMenutext": "A collection of projects to demonstrate the variety of technical and practical skills I have acquired throughout the years.",
     "hauptseite-theMenuUX": "It didn’t take long to find out how UX Design with its technological aspects, the possible playful approaches of problem solving, the creativity of prototying as well as the giving feeling of seeing your designs putting smiles on your clients faces is just as awesome as Game Design.",
     "hauptseite-theMenuGD": "I love gaming, storytelling, art and technology. Therefore, it was only natural to study Game Design. Here we learned all about being an intermediary between artists and developers through learning all of the aspects.",
@@ -78,6 +79,21 @@
     "planung-die-lösung2": "- The user can edit the tasks directly within the planning section",
     "planung-die-lösung3": "- The yearly overview acts as an overview to check if routines were set up correctly.",
     
+    "GD-rollentext":"Game Design and 2D Assets",
+    "tinfoiled-einleitung": "During a week long game jam within the animation festival Fantoche in Baden, Switzerland, which  promotes the cooperation between animation students of Lucerne and game design students of Zurich, that years theme was „conspiracy“. We designed, prototyped and developed a hat building game. The groups were also asked to test the card set „Ideas for Games“, wich was developed by Beat Suter and Anja Fritsch in the GameLab ZHdK. You take some cards with different themes, emotions, etc. and let the cards guide you. Our cards were „Love“ und „Compassion“, which is why our story went from luxury tin foil hat to an empathic 5G-saviour - depending on the end result after fulfilling the Karen's wishes. ",
+    "tinfoiled-schritt1": "Step 1: The team gets together",
+    "tinfoiled-team": "With Julian's IT background the backend was basically childs play an with Alex'' animations skills we were able to start implementing the materials fairly soon. In the meantime, it was my job to prepare the different tin foil hats and decorations as well as the sound integration. Thanks to our wide-ranging game design education Julian and I were able to translate properly between IT and design elements and Alex always knew, how to export her assets to later have it importat to Unity by Julian.",
+    "tinfoiled-schritt2": "Step 2: Story And Paperprototyping",
+    "tinfoiled-story": "First, we dived a little into the topic of conspiracies but quickly decided to stick with one of the better known ones. We gathered some ideas and took the one that sounded the best. Relatively quick we tried the hat generator with a paperprototype. This way, dev knew, what to code, the animator knew what to set up as background and the list of animations and for me, I knew what sounds to implement and tried to create as many tin foil hat elements as possible. During the whole process there were some small adaptations and we helped each other out when needed.",
+    "tinfoiled-schritt3": "Step 3: Development",
+    "tinfoiled-umsetzung": "Nach dem Prototypen hatte der Entwickler bereits eine Vorstellung, wie er vorgeht und hat angefangen, die Logik aufzubauen. Währenddessen hat unsere Animatorin den Hintergrund erarbeitet mitsamt den Charakteren und deren Animationen. Diese wurde nach einer Kurzeinführung ins Unity auch von ihr importiert. Währenddessen kümmerte ich mich ums UI, die Soundeffekte und die Aluhüte. Da wir gleich beieinander sassen, konnten wir uns regelmässig über die Schulter schauen um einerseits Feedback zu geben, andererseits voneinander zu lernen.",
+    "tinfoiled-dasFinale": "The Finished Game",
+    "tinfoiled-Endprodukt": "However. As always, we planned way to many NPCs and other elements and had to cut some of it. We only used one character but could vary a little by different colors. The player has a status that indicates how happy his Karens are with their hats. Depending on the achieved points, he will get a different ending. All in all it was a very interesting and funny project. Working together with 2 stranger, having to learn their way of working, thinking and communicating was challenging but I feel like we got to a good point and I really like the outcome.",
+
+
+
+
+
     "footer-weitereProjekte":"Other projects",
     "footer-some":"Hit me up!"
 

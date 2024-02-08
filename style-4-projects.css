@@ -85,7 +85,7 @@ body {
 }
 
 .projektpage .img {
-    max-width: 70%;
+    max-width: 100%;
     padding: 15px;
     border-radius: 5px;
     margin-top: 20px;
@@ -97,7 +97,12 @@ body {
     margin: auto;
     text-align:center;
 }
+.projektpage .img3 {
+    max-width: 50%;
+    padding: 15px;
+    border-radius: 5px;
 
+}
 .projektpage .text1 {
     align-items: flex-start;
     background-color: transparent;
@@ -208,23 +213,31 @@ body {
     align-items: flex-start;
     background-color: transparent;
     display: inline-flex;
-    flex: 0 0 auto;
     flex-direction: column;
     gap: 20px;
     padding: 0px 50px;
     position: relative;
-    width: 90%;
+    width: 80%;
 }
-
-.projektpage .textblockheader {
+.projektpage .textblock2 {
     align-items: flex-start;
     background-color: transparent;
     display: inline-flex;
     flex-direction: column;
+    padding: 0px 50px;
+    position: relative;
+    width: 100%;
+}
+
+.projektpage .textblockheader {
+    align-items: center;
+    background-color: transparent;
+    display: inline-flex;
+    flex-direction: row;
     gap: 20px;
     padding: 0px 50px;
     position: relative;
-    max-width: 65%;
+    max-width: 75%;
     margin-top: 20px;;
 }
 
@@ -304,6 +317,23 @@ body {
     line-height: var(--absatz-line-height);
     font-style: var(--absatz-font-style);
     
+}
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 32.83%;
+    padding-top: 10px;
+    height: 0;
+    overflow: hidden;
+
+}
+.video iframe{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-bottom: 10px;
 }
 
 .letsconnectText{
