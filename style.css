@@ -220,21 +220,6 @@ a:hover {
   left: 0;
 }
 
-.homepage .languageswitch {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 23px 27px;
-  position: absolute;
-  top: 122px;
-  left: 1272px;
-  background-color: var(--schrift-2);
-  border-radius: 40px 0px 0px 40px;
-  overflow: hidden;
-}
-
-
 .homepage .text-wrapper-2 {
   position: relative;
   width: fit-content;
