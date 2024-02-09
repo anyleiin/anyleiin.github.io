@@ -38,7 +38,7 @@
     "routine-das-problem2": "- Setting up the routine is too complicated",
     "routine-das-problem3": "- The coordinator has no overview of the tasks created/completed from routines.",
     "routine-die-lösung-titel": "The Solution",
-     "routine-die-lösung": "- The creation of routines now happens at the push of a button in task creation.",
+    "routine-die-lösung": "- The creation of routines now happens at the push of a button in task creation.",
     "routine-die-lösung2": "- The user can see and adjust the upcoming tasks in a new planning overview.",
     "routine-die-lösung3": "- The software uses simpler language and creation.",
     "routine-titel-designprozess": "Design process",
@@ -82,6 +82,7 @@
 
     "GD-rollentext":"Game Design and 2D Assets",
     "macaru-rollentext":"Art and Animation",
+    "bachelor-rollentext":"Complete Game Design",
     "tinfoiled-einleitung": "During a week long game jam within the animation festival Fantoche in Baden, Switzerland, which  promotes the cooperation between animation students of Lucerne and game design students of Zurich, that years theme was „conspiracy“. We designed, prototyped and developed a hat building game. The groups were also asked to test the card set „Ideas for Games“, wich was developed by Beat Suter and Anja Fritsch in the GameLab ZHdK. You take some cards with different themes, emotions, etc. and let the cards guide you. Our cards were „Love“ und „Compassion“, which is why our story went from luxury tin foil hat to an empathic 5G-saviour - depending on the end result after fulfilling the Karen's wishes. ",
     "tinfoiled-schritt1": "Step 1: The team gets together",
     "tinfoiled-team": "With Julian's IT background the backend was basically childs play an with Alex'' animations skills we were able to start implementing the materials fairly soon. In the meantime, it was my job to prepare the different tin foil hats and decorations as well as the sound integration. Thanks to our wide-ranging game design education Julian and I were able to translate properly between IT and design elements and Alex always knew, how to export her assets to later have it importat to Unity by Julian.",
@@ -110,8 +111,25 @@
     "interlude-umsetzung": "We have planned that there will be a different, very abstract room between each loop, which should reflect the inner emotional world of the character. I wanted to create the „broken room“ and was able to go crazy. Thanks to the other pixel game, I was also able to put what I had already learned into practice. For my room, I took the individual assets that were already standing around and animated them floating or gliding to show that the room or game was broken. We also had a story team, a dev team, a character team and a few multitalents who also took care of music and sound effects.",
     "interlude-Endprodukt": " thought our game was so great that I tried to fix the last bugs with a few other enthusiasts to publish the game. Unfortunately, it never happened, but it is forever one of my favorites. The puzzles, the setting and the music bring back memories and we have lots of little insiders and jokes hidden away.The development was very interesting, as I only saw the background for a long time and couldn't quite imagine where the journey would take me until playtesting",
 
-
-
+    "spectrum-subtitel":"The question of my bachelor thesis was: Mastering daily life situations from the perspective of a high-functioning autistic person in order to create an understanding for neurotypical people, as we can build up empathy more quickly through familiar situations - (How) can I achieve this? - I am happy to provide the complete presentation and research on request.",
+    "spectrum-einleitung": "Der Spieler steuert einen autistischen Charakter in einem Zeitraum von einer Woche, während welcher es verschiedene Tasks und Events zu durchleben und bestehen gilt. Jeder Event und jeder Task verbraucht einen bestimmten Stress-Wert, welcher von einem “Stressbar” abgezogen wird. Dasselbe für Social life und Arbeits”motivation”. Ist einer der Balken auf 0 gesetzt worden, ist das Spiel nicht bestanden und der Spieler muss den Tag neu anfangen. Werden Tasks nicht erledigt, kann sich das auf den Verlauf der Woche auswirken.",
+    "spectrum-mechanix-titel":"Mechanics",
+    "spectrum-mechanix-subtitel":"Camera",
+    "spectrum-mechanix-subtitel2":"Battery",
+    "spectrum-mechanix-subtitel3":"Other",
+    "spectrum-das-problem": " You lose energy when something unexpected happens, when you do or experience too much, but you also gain it back by taking breaks or stim. You can also decide to avoid activities with other people, but then your social skills will decrease, which will also affect your energy in the long term.",
+    "spectrum-das-problem2": "The camera expresses the situation you are in, on the one hand with effects that restrict the view, and on the other with a change of position to show when something goes from spacious to uncomfortable. For example, the player has a wide camera outside and when he gets on a bus, it is almost too close.",
+    "spectrum-das-problem3": "The music adapts to the situation and energy levels. If the character is not doing well, the music becomes darker and more unpleasant. A good friend composed it for the game and I used FMOD to adapt it to the player's status or depending on the situation",
+    
+    "spectrum-Researchtitel": "Research",
+    "spectrum-ResearchX": "Along the way, I looked at and played other serious games to find out what they do well or badly and what options I can implement.",
+    "spectrum-userResearchZitat": "“I personally feel that if we could stim in peace in public without being judged we could very easily calm down and resume our normal lives, but that’s just me.”, was one answer to the question 'What do you need from society to make you feel good' and this has stayed with me throughout the project.",
+    "spectrum-entwicklung": "I started with the character design and wrote the storyline on the side. My original vision for the future was a complete playable week with flexible tasks. Unfortunately, I reached my programming limits relatively quickly and limited myself to one day with fixed events within the bachelor project. Up until the moment of realization, I had already planned a standard day, as well as planned, scripted and noted all possible dialogues and tasks for the entire week.",
+    "spectrum-entwicklung4": "I also played around with the colors, as certain colors can be too strong for people on the spectrum. I therefore tried not to use strong colors and to limit the effects to the negative moments.",
+    "spectrum-Endprodukt": "I am proud of my game and would like to keep working on it. Of course, with the knowledge I have now, I would approach it differently. I actually find game design easier when you don't have to code around a plugin and I was able to gain experience in UI, research and project management. During the project, I misjudged my ressources and had to make a big cut halfway through and plan everything more realistically. So now I know what to expect. For me, games are not just for fun but can also be used to learn something and create empathy. During research I got the feeling how our neurotypical society is not yet able to do this for people outside the norm. So what could be more helpful than playing through these difficulties yourself and getting a feeling for what life is like with constant hurdles in everyday life, which is so easy for neurotypical people?",
+    "spectrum-entwicklung3": "I wanted to add masks to the NPCs as my research revealed the difficulty of recognizing facial features and hidden meanings, e.g. sarcasm. The masks were not easy to recognize with my low-poly style, so I just left out the faces completely. In general I left everything very rough and decided to build out the most important places more or when I had the time. Tools used were Blender, Unity, FMod and Yarnspinner. It was my first time working with Yarnspinner and I was thrilled that I could already set triggers with the texts. I was able to note which answers didn't fit and had a bad effect on social skills. In Unity itself, I bought a plugin to help me create the game with pre-coded events. However, I wanted to program most of it myself, which is why I had to work around the plugin each time.",
+    "spectrum-entwicklung2": "I wanted to make the main character either very androgynous or gender-neutral so that the player can better empathize with the character, regardless of the player's gender.",
+    
 
     "footer-weitereProjekte":"Other projects",
     "footer-some":"Hit me up!"

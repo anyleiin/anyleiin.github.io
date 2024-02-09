@@ -505,8 +505,8 @@ a:hover {
 .homepage .projects {
   display: inline-flex;
   align-items: flex-start;
-  gap: 113px;
-  position: absolute;
+  gap: 165px;
+  position: relative;
   top: 1388px;
   left: 30px;
 }
@@ -515,7 +515,7 @@ a:hover {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 66px;
+  gap: 50px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -524,17 +524,19 @@ a:hover {
   background: linear-gradient(180deg, rgb(143, 0, 255) 0%, rgb(205, 108, 186) 100%);
   display: flex;
   flex-direction: column;
-  width: 603px;
+  max-width: 100%;
   height: 684px;
   align-items: flex-start;
-  padding: 32px 0px 32px 32px;
+  padding: 32px;
   position: relative;
   border-radius: 40px;
+  justify-content: space-between;
+
 }
 
 .homepage .overlap-group-wrapper {
   position: relative;
-  width: 540px;
+  width: 546px;
   height: 306px;
 }
 
@@ -548,40 +550,40 @@ a:hover {
   width: 540px;
   height: 298px;
   top: 0;
-  left: 0;
+  left: -3px;
   border-radius: 40px;
   border: 5px solid;
   border-color: var(--schrift-1);
+
+}
+
+.image { 
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 32px;
+
 }
 
 .homepage .img-2 {
   position: absolute;
-  width: 528px;
-  height: 306px;
   top: 0;
   left: 6px;
+  object-fit:cover;
+  border-radius: 40px;
+  width: 100%;
+  height: auto;
+
 }
 
 .homepage .frame-wrapper {
   display: flex;
   flex-direction: column;
   width: 528px;
-  height: 227px;
+  height: 250px;
   align-items: flex-start;
   padding: 0 0 48px 0;
   position: relative;
-}
-
-.homepage .frame-7 {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 12px 0px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
 }
 
 .homepage .text-wrapper-13 {
@@ -627,8 +629,8 @@ a:hover {
   all: unset;
   box-sizing: border-box;
   display: flex;
-  width: 320px;
-  height: 81px;
+  width: 260px;
+  height: 60px;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -655,40 +657,11 @@ a:hover {
   text-decoration: none;
   }
 
-.homepage .button-3 {
-  all: unset;
-  box-sizing: border-box;
-  display: flex;
-  width: 320px;
-  height: 81px;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 0px 10px;
-  position: relative;
-  border-radius: 40px;
-  border: 3px solid;
-  border-color: var(--schrift-1);
-  text-decoration: none;
-}
-
-.homepage .projectcard-2 {
-  background: linear-gradient(180deg, rgb(145, 2, 255) 0%, rgb(204, 105, 189) 100%);
-  display: flex;
-  flex-direction: column;
-  width: 603px;
-  height: 684px;
-  align-items: flex-start;
-  padding: 32px 0px 32px 32px;
-  position: relative;
-  border-radius: 40px;
-}
 
 .homepage .frame-8 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
   padding: 12px 0px;
   position: relative;
   align-self: stretch;
