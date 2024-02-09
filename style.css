@@ -792,9 +792,9 @@ a:hover {
 }
 
 .homepage .group-6 {
-  position: absolute;
-  width: 1560px;
-  height: 719px;
+  position: relative;
+  width: 100%;
+  height: auto;
   top: 293px;
   left: 58px;
 }
@@ -806,9 +806,9 @@ a:hover {
 
 .homepage .rectangle-2 {
   position: absolute;
-  width: 1523px;
-  height: 136px;
-  top: 13px;
+  width: 1400px;
+  height: 242px;
+  top: 4px;
   left: 2px;
   background-color: #d9d9d9;
   border-radius: 75px 0px 0px 75px;
@@ -817,9 +817,9 @@ a:hover {
 
 .homepage .rectangle-3 {
   position: absolute;
-  width: 1560px;
-  height: 146px;
-  top: 293px;
+  width: 1400px;
+  height: 242px;
+  top: 328px;
   left: 0;
   background-color: #d9d9d9;
   border-radius: 75px 0px 0px 75px;
@@ -828,9 +828,9 @@ a:hover {
 
 .homepage .rectangle-4 {
   position: absolute;
-  width: 1382px;
-  height: 136px;
-  top: 569px;
+  width: 1400px;
+  height: 242px;
+  top: 616px;
   left: 2px;
   background-color: #d9d9d9;
   border-radius: 75px 0px 0px 75px;
@@ -842,9 +842,7 @@ a:hover {
   flex-direction: column;
   align-items: flex-start;
   gap: 64px;
-  position: absolute;
-  top: 0;
-  left: 35px;
+
 }
 
 .homepage .frame-10 {
@@ -882,14 +880,15 @@ a:hover {
 
 .homepage .group-7 {
   position: relative;
-  width: 731px;
-  height: 144px;
-  margin-right: -2px;
+  width: 100%;
+  height: auto;
+
 }
 
 .homepage .text-wrapper-17 {
-  position: absolute;
-  width: 729px;
+  position: relative;
+  max-width: 35%;
+  height: fit-content;
   top: 0;
   left: 0;
   font-family: var(--absatz-font-family);
