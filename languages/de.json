@@ -8,14 +8,14 @@
     "hauptseite-routine":"“Routinen”- Der Datencontainer, welcher Aufgaben triggered, aber bitte in einfach!",
     "hauptseite-interlude":"Ein 2D-Pixel-Rätselspiel, in welchem du während eines Abends in einer Bar feststeckst.",
     "hauptseite-Macaru":"Inspiriert von einem der ersten Spiele - der Magmacaverun. Schaffst du es, die Balance zwischen Gold und Leben zu finden?",
-    "hauptseite-Planning":"“Planning - Die Übersicht, welche sich aus der Routine heraus entwickelt hat",
+    "hauptseite-Planning":"“Planning” - Die Übersicht, welche sich aus der Routine heraus entwickelt hat",
     "hauptseite-spectrum":"Das Spiel für Menschen auf dem Spektrum und ihr Umfeld, entweder als Energiemanagement-Spiel oder um Verständnis zu schaffen.",
     "hauptseite-tinfoiled":"Rette die Karens vor den Wellen böser 5G Strahlen mit dem einmaligen Aluhut-Generator!",
     "hauptseite-projectview":"Zum Projekt ",
     "hauptseite-dieProjekte":"Die Projekte",
     "hauptseite-skillz":"Das Skillset",
     "hauptseite-skillbutton":"Nice! Gib mir mehr Info!(CV)",
-    "hauptseite-dasMenu":"Das Menü",
+    "hauptseite-dasMenu":"Die Gallerie",
     "hauptseite-dasMenutext":"Eine Sammlung von Projekten zur Demonstration meiner technischer und praktischer Fähigkeiten, welche ich mir soweit angeeignet habe (Die Homepage zählt dazu).",
     "hauptseite-theMenuUX": "Es dauerte nicht lang um herauszufinden, dass UX Design mit seinen technologischen Aspekten, dem spielerischem Umgehen mit Problemen, die Kreativität des Prototypen und die Umsetzung des Designs genau so erfüllend und begeisternd ist wie Game Design.",
     "hauptseite-theMenuGD": "I liebe Gaming, Geschichten erzählen, Kunst und Terminologie. Darum war es selbsterklärend, Game Design zu studieren. Hier haben wir alle Schritte gelernt, selbständig Spiele umsetzen zu können und als Schnittstelle zwischen Designern und Entwicklern zu fungieren.",
@@ -25,8 +25,9 @@
     "hauptseite-ueberGaming": "Ich liebe Spiele, egal ob draussen, drinnen, am PC oder analog. Spiele bringt alle möglichen Arten von Menschen zusammen, erschafft Emotionen und ich bin begeistert von den Technologien dahinter.",
     "hauptseite-ueberLesen":"Ich vergesse immer, wie sehr ich es liebe zu lesen und in Geschichten einzutauchen. Meine Lieblingsbücher behalte ich, um Orte, Personen und Momente wieder besuchen zu können.",
     "hauptseite-ueberSport":"Joggen ist mein Todfeind aber ich liebe Teamsport und verschiedene Sportarten auszuprobieren, zB Segeln, Kickboxen und Bogenschiessen.",
-    "hauptseite-zusammenarbeit":"Du hast ein spannendes Projekt? HMU!",
+    "hauptseite-zusammenarbeit":"Du hast ein spannendes Projekt? Melde dich!",
     "hauptseite-spectrumtitel":"Auf dem Spektrum",
+    "hauptseite-meldedich":"Zur Mail",
 
     "routine-rollentext":"UX und UI Design und Research",
     "routine-rollentitel":"Rolle",
@@ -135,6 +136,9 @@
     "spectrum-Endprodukt": "Ich bin stolz auf mein Spiel und möchte am liebsten immer noch weiter daran arbeiten. Mit dem Wissen, was ich jetzt habe, würde ich natürlich alles etwas anders angehen. So finde ich die Spielgestaltung tatsächlich einfacher, wenn man nicht um ein Plugin herumcoden muss und ich konnte Erfahrungen sammeln im UI, Research und in der Projektleitung. Während des Projekts habe ich mich noch verschätzt und musste in der Hälfte einen grossen Cut machen und meine Ressourcen realistischer einplanen. Daher wüsste ich jetzt, was alles auf mich zukommt. Für mich sind Spiele nicht nur Freizeitaktivitäten sondern können durchaus zur Vermittlung und Empathieerzeugung eingesetzt werden und ich habe während der Recherche gespürt, dass unsere Gesellschaft das für Randgruppen oder einfach andere Menschen noch nicht einfach so aufbringen kann. Was hilft also mehr, als diese Schwierigkeiten selbst durchspielen und ein Gefühl dafür zu bekommen, wie das Leben mit ständigen Hürden im für neurotypisch so einfachen Alltag? ",
 
     "footer-weitereProjekte":"Weitere Projekte",
-    "footer-some":"Hit me up!"
+    "footer-some":"Hit me up!",
+
+    "skills Coding":"Programmieren",
+    "hauptseite-kontakt":"Kontakt"
 
 }

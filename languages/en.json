@@ -12,7 +12,7 @@
     "hauptseite-spectrum":"An experience for people on the spectrum and their surroundings, either as an energy management game or to generate an understanding.",
     "hauptseite-tinfoiled":"Save the Karens from the evil 5G waves with the unique tinfoil hat generator!",
     "hauptseite-projectview":"View Project ",
-    "hauptseite-dasMenu":"The Menu",
+    "hauptseite-dasMenu":"The Gallery",
     "hauptseite-dasMenutext": "A collection of projects to demonstrate the variety of technical and practical skills I have acquired throughout the years.",
     "hauptseite-theMenuUX": "It didn’t take long to find out how UX Design with its technological aspects, the possible playful approaches of problem solving, the creativity of prototying as well as the giving feeling of seeing your designs putting smiles on your clients faces is just as awesome as Game Design.",
     "hauptseite-theMenuGD": "I love gaming, storytelling, art and technology. Therefore, it was only natural to study Game Design. Here we learned all about being an intermediary between artists and developers through learning all of the aspects.",
@@ -26,7 +26,7 @@
     "hauptseite-ueberSport":"While I don’t like jogging, I do like playing team sports and tried a bunch of different things like sailing, kick boxing, and arrow shooting.",
     "hauptseite-zusammenarbeit":"Let’s work on your project together!",
     "hauptseite-spectrumtitel":"On the spectrum",
-
+    "hauptseite-meldedich":"Send Mail",
 
     "routine-rollentext":"UX and UI Design and Research",
     "routine-rollentitel":"Roll",
@@ -132,7 +132,7 @@
     
 
     "footer-weitereProjekte":"Other projects",
-    "footer-some":"Hit me up!"
+    "footer-some":"Hit me up!",
 
-
+    "hauptseite-kontakt":"Contact"
 }
