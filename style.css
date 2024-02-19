@@ -208,6 +208,12 @@ align-items: flex-start;
   width: 60px;
   height: 60px;
 }
+.homepage .gimmeSomeSpace{
+  padding-left: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
 .homepage .icons-mail {
   margin-right: -13px;
@@ -525,7 +531,7 @@ align-items: flex-start;
   border-radius: 32px;
 }
 .skillStars{ 
-  width: 15%;
+  width: 20%;
   padding: 10px;
 
 }
@@ -948,7 +954,7 @@ scroll-margin-top: 90vh;
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 15px;
+  padding: 16px;
 }
 
 .homepage .button-label-3 {
@@ -1004,8 +1010,9 @@ scroll-margin-top: 90vh;
  }
 .homepage .frame-54 {
   flex-direction: column;
+    padding: 4px;
+ }
   
-}
 .homepage .frame-9{
   flex-direction: column;
   
@@ -1037,7 +1044,7 @@ scroll-margin-top: 90vh;
   font-size: 28px;
 }
 .homepage .skillset{
-  padding: 12px, 0;
+  padding: 0;
   font-size: 28px;
 }
 .homepage .titlePurple{
@@ -1051,6 +1058,9 @@ scroll-margin-top: 90vh;
 .homepage .nav
 {
   display: none;
+}
+.homepage .gimmeSomeSpace{
+  padding-left: 28px;
 }
 }
 
@@ -1070,5 +1080,52 @@ scroll-margin-top: 90vh;
 .homepage .right
 {
   display: none;
+}
+.homepage .gimmeSomeSpace{
+  padding-left: 28px;
+}
+.homepage .skillset{
+
+  padding: 4px;
+
+}
+.homepage .frame-54{
+
+  padding: 4px;
+
+}
+.homepage .projectcard{
+
+  max-width: 50%;
+
+}
+.homepage .frame-8{
+
+width: 50%;
+}
+.homepage .frame-6{
+padding-bottom: 32px;
+  }
+  
+.homepage .frame-wrapper{
+padding: 0 0 40px 0;
+height: fit-content;
+  }
+  
+.homepage .rectangle{
+
+  width: 304px;
+  height: 240px;
+  
+  }
+.homepage .overlap-group-wrapper{
+
+  height: 240px;
+  
+}
+.homepage .projektbeschreibung{
+
+  font-size: 20px;
+  
 }
 }
