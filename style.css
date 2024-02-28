@@ -79,7 +79,7 @@ body {
   position: relative;
   max-width: 100%;
   display: inline-flex;
-  scroll-margin-top: 90vh;
+  scroll-margin-top: 90px;
 }
 
 .homepage .header {
@@ -92,7 +92,7 @@ body {
 
 .homepage .title {
   position: relative;
-  width: 80%;
+
 
   background: linear-gradient(
       180deg,
@@ -156,6 +156,18 @@ align-items: flex-start;
   font-family: var(--absatz-font-family);
   font-weight: var(--absatz-font-weight);
   color: #dedede;
+  font-size: var(--absatz-font-size);
+  letter-spacing: var(--absatz-letter-spacing);
+  font-style: var(--absatz-font-style);
+  text-decoration: none;
+}
+.homepage .absatz-dunkel {
+  position: relative;
+  width: 80%;
+  padding: 12px 0;
+  font-family: var(--absatz-font-family);
+  font-weight: var(--absatz-font-weight);
+  color: rgb(142, 8, 144);
   font-size: var(--absatz-font-size);
   letter-spacing: var(--absatz-letter-spacing);
   font-style: var(--absatz-font-style);
@@ -282,7 +294,7 @@ align-items: flex-start;
   background-color: #af2ad4;
   /*overflow-x: auto; 
   //overflow-y: hidden; */
-  scroll-margin-top: 90vh;
+  scroll-margin-top: 90px;
   padding: 15px;
 
 }
@@ -476,6 +488,7 @@ align-items: flex-start;
   flex-direction: row;
   gap: 5px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .homepage .frame-6 {
@@ -485,6 +498,7 @@ align-items: flex-start;
   gap: 50px;
   position: relative;
   flex: 0 0 auto;
+  padding: 0 12px;
 }
 
 .homepage .projectcard {
@@ -571,6 +585,19 @@ align-items: flex-start;
   font-style: var(--heading-h1-font-style);
 }
 
+.homepage .text-wrapper-13-dunkel{
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--heading-h1-font-family);
+  font-weight: var(--heading-h1-font-weight);
+  color:  #8e0890;
+  font-size: var(--heading-h1-font-size);
+  letter-spacing: var(--heading-h1-letter-spacing);
+  line-height: var(--heading-h1-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-h1-font-style);
+}
 .homepage .sparte {
   position: relative;
   width: fit-content;
@@ -650,7 +677,9 @@ align-items: flex-start;
 }
 
 .homepage .titlePurple {
+  scroll-margin-top: 90px;
   position: relative;
+
   width: 100%;
   padding: 0 0 61px 61px;
   font-family: var(--heading-XL-h2-font-family);
@@ -660,8 +689,9 @@ align-items: flex-start;
   letter-spacing: var(--heading-XL-h2-letter-spacing);
   line-height: var(--heading-XL-h2-line-height);
   font-style: var(--heading-XL-h2-font-style);
-  scroll-margin-top: 90vh;
+ 
 }
+
 
 .homepage .nav {
   display: flex;
@@ -765,6 +795,7 @@ align-items: flex-start;
 }
 
 .homepage .know-more {
+  scroll-margin-top: 90px;
   position: relative;
   height: fit-content;
   padding: 28px;
@@ -867,7 +898,6 @@ align-items: flex-start;
 .homepage .titleLila {
   position: relative;
   width: 100%;
-  padding: 0px;
   font-family: var(--heading-XL-h2-font-family);
   font-weight: var(--heading-XL-h2-font-weight);
   color: var(--purple);
@@ -875,7 +905,7 @@ align-items: flex-start;
   letter-spacing: var(--heading-XL-h2-letter-spacing);
   line-height: var(--heading-XL-h2-line-height);
   font-style: var(--heading-XL-h2-font-style);
-  scroll-margin-top: 90vh;
+  scroll-margin-top: 90px;
 }
 
 .homepage .contact-2 {
@@ -934,6 +964,7 @@ align-items: flex-start;
   display: flex;
   flex-direction: row;
   width: 80%;
+
 }
 .homepage .skillset .skilltext{
 position: relative;
@@ -948,13 +979,14 @@ letter-spacing: var(--heading-h3-letter-spacing);
 line-height: var(--heading-h3-line-height);
 font-style: var(--heading-h3-font-style);
 text-decoration: none; 
-scroll-margin-top: 90vh;
+
 }
 .homepage .skillset{
   display: flex;
   flex-direction: column;
   width: 100%;
   padding: 16px;
+  scroll-margin-top:  100vh;
 }
 
 .homepage .button-label-3 {
@@ -998,7 +1030,7 @@ scroll-margin-top: 90vh;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 670px) {
  .homepage .projects {
   flex-direction: column;
  } 
@@ -1019,7 +1051,7 @@ scroll-margin-top: 90vh;
 }
 .homepage .title{
   font-size: 28px;
-  width: 100%;
+
 }
 .homepage .absatz {
   font-size: 24px;
@@ -1040,7 +1072,7 @@ scroll-margin-top: 90vh;
   font-size: 20px;
 }
 .homepage .titleLila{
-
+  padding: 0 12px;
   font-size: 28px;
 }
 .homepage .skillset{
