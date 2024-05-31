@@ -215,6 +215,7 @@ text-decoration: underline;
     align-items: center;
 }
 
+
 .projektpage .textblock {
     align-items: flex-start;
     background-color: transparent;
@@ -230,7 +231,6 @@ text-decoration: underline;
     background-color: transparent;
     display: inline-flex;
     flex-direction: column;
-    padding: 0px 50px;
     position: relative;
     width: 100%;
 }
@@ -327,7 +327,7 @@ text-decoration: underline;
 .video {
     position: relative;
     width: 100%;
-    padding-bottom: 32.83%;
+    padding-bottom: 40%;
     padding-top: 10px;
     height: 0;
     overflow: hidden;
@@ -510,3 +510,35 @@ text-decoration: underline;
   .subnav:hover .subnav-content {
     display: block;
   }
+
+  @media (max-width: 1300px) {
+  .introduction{
+  flex-direction: column;
+  padding: 0%;
+  }
+  .projektpage .column{
+    width: 80%;
+  }
+  .projektpage .textblockheader{
+    padding: 0;
+    max-width: 100%;
+  }
+  }
+
+  @media (max-width: 670px) {
+    .projektpage .introduction{
+      padding: 15px;
+      }
+      .projektpage .textblock{
+        padding: 15px;
+      }
+      .projektpage .titel{
+        padding: 0px;
+  } 
+  .projektpage .frame-54{
+    padding: 0px;
+
+    }
+
+}
+    

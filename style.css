@@ -98,8 +98,8 @@ body {
       180deg,
       rgb(142, 8, 144) 0%,
       rgb(142, 8, 144) 43%,
-      rgb(255, 218.14, 62.69) 43%,
-      rgb(255, 218.14, 62.69) 5%  
+      rgb(142, 8, 144) 43%,
+      rgb(142, 8, 144) 43%  
   );
   -webkit-background-clip: text !important;
   background-clip: text;
@@ -1027,6 +1027,8 @@ text-decoration: none;
   position: relative;
   display: inline-flex;
   flex: 0 0 auto;
+  padding-right: 50px;
+  margin-right: 25px;
 }
 
 
