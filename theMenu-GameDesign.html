@@ -3,12 +3,12 @@
 <head>
     <title>Game Design</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style-4-galleries.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <link rel="stylesheet" href="styleguide.css" />
     <script src="interactions.js"></script>
 </head>
 <body>
-    <div class ="container">
+    <div class ="container4galleries">
         <div class="heading">
             <p class="title"> GAME DESIGN <span>GALLERY</span></p> <!--"Span" seperates title into 2 parts-->
         </div>
@@ -43,37 +43,75 @@
             </div>
         </div>   
     </div>
-    <div class="nav">
-        <div class="left">
-            <a href="index.html"><div class="text-wrapper-15">ANIKA HAPKE</div></a>
-            <div class="navbar">
-                <div class="subnav">
-                    <button class="subnavbtn">The Projects<i class="fa fa-caret-down"></i></button>
-                        <div class="subnav-content">
-                          <a href="project-macaru.html">Macaru</a>
-                          <a href="project-onthespectrum.html">On The Spectrum</a>
-                          <a href="project-planning.html">Planning</a>
-                          <a href="project-routines.html">Routines</a>
-                          <a href="project-tinfoiled.html">Tinfoiled</a>
-                          <a href="project-interlude.html">Interlude</a>
-                        </div>
-                </div> 
-                <div class="subnav">
-                    <button class="subnavbtn">The Menu<i class="fa fa-caret-down"></i></button>
-                        <div class="subnav-content">
-                          <a href="theMenu-Animations.html">Animation</a>
-                          <a href="theMenu-GameDesign.html">Game Design</a>
-                          <a href="theMenu-Illustrations.html">Illustration</a>
-                          <a href="theMenu-UXDesign.html">UX Design</a>
-                        </div>
-                </div> 
-                <a href="index.html#TheSkillset"><div class="text-wrapper-16">The Skillset</div></a>
-                <a href="index.html#TheArtist"><div class="text-wrapper-16">The Artist</div></a>
-            </div>
+    <!--nav -->
+<div class="nav">
+    <div class="left">
+        <a href="index.html"><div class="text-wrapper-15">ANIKA HAPKE</div></a>
+        <div class="navbar">
+            <div class="subnav">
+                <button class="subnavbtn">The Projects<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="project-macaru.html">Macaru</a>
+                      <a href="project-onthespectrum.html">On The Spectrum</a>
+                      <a href="project-planning.html">Planning</a>
+                      <a href="project-routines.html">Routines</a>
+                      <a href="project-tinfoiled.html">Tinfoiled</a>
+                      <a href="project-interlude.html">Interlude</a>
+                    </div>
+            </div> 
+            <div class="subnav">
+                <button class="subnavbtn">The Menu<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                      <a href="theMenu-Animations.html">Animation</a>
+                      <a href="theMenu-GameDesign.html">Game Design</a>
+                      <a href="theMenu-Illustrations.html">Illustration</a>
+                      <a href="theMenu-UXDesign.html">UX Design</a>
+                    </div>
+            </div> 
+            <a href="about.html"><div class="text-wrapper-16">About</div></a>
+            <div class="languageswitch"onclick="changeLanguage('de')"><div class="text-wrapper-16">DE</div></div>
+            <div class="languageswitch"onclick="changeLanguage('en')"><div class="text-wrapper-16">EN</div></div>
         </div>
-        <div class="right">
-            <a href="mailto:anysportfolio@gmx.net"><button class="contact-wrapper"><div class="contact">CONTACT</div></button></a>
-        </div>
+
     </div>
+    <div class="right">
+        <a href="mailto:anysportfolio@gmx.net"><button class="contact-wrapper"><div class="contact">CONTACT</div></button></a>
+    </div>
+</div>
+<!-- Site footer -->
+<footer class="footer">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <div class="headerText"><p class="titleYellow"data-i18n="hauptseite-zusammenarbeit"></p></div>
+    <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="about.html">About me</a></li>
+        <li class="menu__item"><a class="menu__link" href="theMenu-UXDesign.html">UX Design</a></li>
+        <li class="menu__item"><a class="menu__link" href="theMenu-GameDesign.html">Game Design</a></li>
+        <li class="menu__item"><a class="menu__link" href="theMenu-Illustrations.html">Illustrations</a></li>
+
+    </ul>
+    </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      
 </body>
 </html>

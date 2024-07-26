@@ -1,0 +1,26 @@
+                    <section id="mouseSwiper" class="frame-3">
+                        <div class="frame-5">
+                            <a href="theMenu-UXDesign.html"><img class="process-2" src="img/UXDesign.jpeg" /></a>
+                            <div class="container-3">
+                                <div class="text-wrapper-5">UX Design</div>
+                                <p class="text-wrapper-6" data-i18n="hauptseite-theMenuUX"></p>
+                            </div>
+                            <div class="text-wrapper-8">02-04</div>
+                        </div>
+                        <div class="frame-5">
+                            <a href="theMenu-Illustrations.html"><img class="process-2" src="img/illustration.png" /> </a>
+                            <div class="container-3">
+                                <div class="text-wrapper-5" >2D & 3D Art</div>
+                                <p class="text-wrapper-6" data-i18n="hauptseite-theMenuArt"></p>
+                            </div>
+                            <div class="text-wrapper-9">03-04</div>
+                        </div>
+                        <div class="frame-5">
+                            <a href="theMenu-Animations.html"><img class="process" src="img/christmasgif.gif" /></a>
+                            <div class="container-3"> 
+                            <div class="text-wrapper-5">Animation & Videos</div>
+                            <p class="text-wrapper-6"data-i18n="hauptseite-theMenuAnim"></p>
+                            </div>
+                            <div class="text-wrapper-9">04-04</div>
+                        </div>
+                    </section>  
